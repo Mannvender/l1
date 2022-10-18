@@ -23,7 +23,7 @@ export default {
   ],
   breakpoints: ["576px", "768px", "1024px"],
   space: [0, 4, 8, 16, 32, 64, 128, 256],
-  fontSizes: [6, 12, 14, 16, 20, 24, 32, 48, 72, 120],
+  fontSizes: [6, 12, 14, 16, 20, 24, 32, 48, 72, 120, 200],
   fontWeights: {
     normal: 400,
     bold: 700,

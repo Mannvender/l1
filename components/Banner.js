@@ -9,7 +9,7 @@ const StyledHeading = styled(Heading)`
       ${(props) => props.theme.colors.primary};
 `;
 
-const Banner = ({ onCtaClick }) => {
+const Banner = () => {
   const { colors } = useTheme();
   return (
     <Flex

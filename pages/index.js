@@ -2,11 +2,11 @@ import React from "react";
 import { Box } from "rebass";
 import Banner from "components/Banner";
 import Navbar from "components/Navbar";
-import styled, { useTheme } from "styled-components";
+import { useTheme } from "styled-components";
 import Slider from "components/Slider";
+import Stats from "components/Stats";
 
 const Index = () => {
-  const { colors } = useTheme();
   return (
     <>
       <Navbar />
@@ -14,6 +14,7 @@ const Index = () => {
       <BlackStrip />
       <Slider />
       <BlackStrip />
+      <Stats />
     </>
   );
 };
