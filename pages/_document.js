@@ -19,14 +19,11 @@ export default class MyDocument extends Document {
     <Html lang="en">
       <Head>
         {/* <script src="https://cdn.polyfill.io/v2/polyfill.min.js"></script> */}
-        <meta name="title" content="Suvidha Solutions" />
-        <meta
-          name="description"
-          content="We are an IT consulting firm offering custom software development service that includes UI designing, software development, and QA services."
-        />
+        <meta name="title" content="Layer1 Loopy" />
+        <meta name="description" content="Hoop and loop never go old!!" />
         <meta
           name="keywords"
-          content="suvidha,solutions,suvidha solutions,india,indian,I.T,Consultancy,software,development,service,IT"
+          content="loopy,layer1,NFT,crypto,cryptocurrency,game,development,service,Ethereum,Bitcoin"
         />
         <meta name="robots" content="index, follow" />
         <meta httpEquiv="Content-Type" content="text/html; charset=utf-8" />
