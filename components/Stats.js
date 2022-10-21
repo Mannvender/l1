@@ -1,5 +1,5 @@
-import { Box, Flex, Heading, Link, Text } from "rebass";
-import styled, { useTheme } from "styled-components";
+import { Flex, Heading, Text } from "rebass";
+import { useTheme } from "styled-components";
 import {
   FcPieChart,
   FcAddressBook,
