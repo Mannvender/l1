@@ -19,10 +19,10 @@ function Navbar() {
       </Heading>
       <Box mx="auto" />
       <Link variant="nav" href="#!" mr={4}>
-        <SiDiscord size={isMobile ? 36 : 80} />
+        <SiDiscord size={isMobile ? 36 : 80} color={colors.light} />
       </Link>
       <Link variant="nav" href="#!">
-        <FaTwitter size={isMobile ? 36 : 80} />
+        <FaTwitter size={isMobile ? 36 : 80} color={colors.light} />
       </Link>
     </Flex>
   );

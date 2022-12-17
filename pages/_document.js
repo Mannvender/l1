@@ -1,6 +1,5 @@
 import Document, { Html, Head, Main, NextScript } from "next/document";
 import { ServerStyleSheet } from "styled-components";
-import GlobalStyles from "../styles/global";
 
 /**
  * Rendered Server Side
@@ -63,7 +62,6 @@ export default class MyDocument extends Document {
           type="text/css"
           href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick-theme.min.css"
         />
-        <GlobalStyles />
         {this.props.styleTags}
       </Head>
       <body>

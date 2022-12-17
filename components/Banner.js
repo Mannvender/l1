@@ -17,6 +17,7 @@ const Banner = () => {
       justifyContent="center"
       alignItems="center"
       flexDirection="column"
+      sx={{ backgroundColor: "inherit" }}
     >
       <StyledHeading
         textAlign="center"
@@ -39,7 +40,14 @@ const Banner = () => {
         wanna bring to notice to a larger subset of NFT enthusiasts the upcoming
         ZK Rollup EVM upgrades & more
       </Text>
-      <Button mt={[5]} fontWeight="bold" fontSize={[5]} px={[4]} py={[3]}>
+      <Button
+        mt={[5]}
+        fontWeight="bold"
+        fontSize={[5]}
+        px={[4]}
+        py={[3]}
+        color={colors.dark1}
+      >
         Pre Sale Coming Soon
       </Button>
     </Flex>

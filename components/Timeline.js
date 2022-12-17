@@ -139,10 +139,16 @@ const ImageOverlay = ({ data }) => {
         width={["100%"]}
         justifyContent="center"
       >
-        <Heading fontSize={[fontSizes[6], fontSizes[7], fontSizes[8]]}>
+        <Heading
+          fontSize={[fontSizes[6], fontSizes[7], fontSizes[8]]}
+          color={colors.light1}
+        >
           {data.subHeading}
         </Heading>
-        <Text fontSize={[fontSizes[6], fontSizes[6], fontSizes[7]]}>
+        <Text
+          fontSize={[fontSizes[6], fontSizes[6], fontSizes[7]]}
+          color={colors.light2}
+        >
           {data.description}
         </Text>
       </Flex>

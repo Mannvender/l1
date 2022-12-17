@@ -1,47 +1,47 @@
 import React from "react";
-import Theme from "./theme";
 
-export default () => {
+export default ({ theme }) => {
   return (
     <style>
       {`
         body {
           margin: 0;
           font-size: 1rem;
-          color: ${Theme.colors[0].light};
-          font-family: ${Theme.fonts.body};
+          color: ${theme.colors.light};
+          background-color: ${theme.colors.light};
+          font-family: ${theme.fonts.body};
         }
         * {
           box-sizing: border-box;
           scroll-behavior: smooth;
         }
         h1, h2, h3, h4, h5, h6 {
-          font-family: ${Theme.fonts.heading} !important;
+          font-family: ${theme.fonts.heading} !important;
         }
         a{
           text-decoration: none;
-          color: ${Theme.colors[0].light};
+          color: ${theme.colors.light};
         }
         a:hover {
-          color: ${Theme.colors[0].dark};
+          color: ${theme.colors.dark};
         }
 
         /* Works on Firefox */
         * {
             scrollbar-width: thin;
-            scrollbar-color: ${Theme.colors[0].dark2} ${Theme.colors[0].dark};
+            scrollbar-color: ${theme.colors.dark2} ${theme.colors.dark};
         }
         /* Works on Chrome, Edge, and Safari */
         *::-webkit-scrollbar {
             width: 12px;
         }
         *::-webkit-scrollbar-track {
-            background: ${Theme.colors[0].dark};
+            background: ${theme.colors.dark};
         }
         *::-webkit-scrollbar-thumb {
-            background-color: ${Theme.colors[0].dark2};
+            background-color: ${theme.colors.dark2};
             border-radius: 20px;
-            border: 3px solid ${Theme.colors[0].dark};
+            border: 3px solid ${theme.colors.dark};
         }
     `}
     </style>
